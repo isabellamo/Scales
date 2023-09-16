@@ -19,7 +19,7 @@ public void scale(int x, int y, float a, double pick){
   while(diam < 16){ // outer to inner
     stroke(a,190,190); // initial color at the center coordinate
       vertex(x, y); // +y (25,10) // initially y - diam
-      vertex(x + diam * 0.8, y - diam * 0.6); // -x, +y (37,16) 
+      vertex(x + diam * 0.8, y - diam * 0.6); // -x, +y (37,16)
       vertex(x + diam, y); // -x (40,25)
       vertex(x + diam * 0.8, y + diam * 0.6); // -x, - y (37,34)
       vertex(x, y + diam); // -y (25,40)
