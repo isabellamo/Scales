@@ -1,9 +1,9 @@
-public void setup(){
+void setup(){
   size(500,500);
   background(70,130,180);
 }
 
-public void draw(){
+void draw(){
  for (int y = 5; y < 500; y += 20){
    for (int x = 10; x < 500; x += 25){
      double pick = Math.random() * 10;
@@ -12,7 +12,7 @@ public void draw(){
  }
 }
 
-public void scale(int x, int y, float a, double pick){
+void scale(int x, int y, float a, double pick){
   beginShape(); // small to big shape with color change
   int diam = 0;
   noFill();
